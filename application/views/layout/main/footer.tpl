@@ -1,42 +1,20 @@
-<footer id="footer" class="footer">
-    <div class="footer_container">
-        <div class="row  rowwer">
-
-            <div class="col-xs-6 col-sm-3 col-md-3 footer_info">
-                <div class="wrap_footer_info">
-                    <h3 class="bold">КОНТАКТ</h3>
-                    <hr>
-                    <p>Тернопіль, Україна<br>
-                        +38 (067) 248 09 30</p>
-                </div>
+<div id="footer" class="col-xs-12 col-md-4 container   ">
+             
+                <div class="row">
+                    <div class="col-xs-9 col-md-9 pull-left">
+                <p class="text-muted">Logistic Personal Digital Assistant</p>
+                <a href="#">{__('FAQ')}</a>
+                <a href="#">{__('Feedback')}</a>
+                <a href="#">{__('Affiliate_program')}</a>
             </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-3 footer_info">
-                <div class="wrap_footer_info">
-                    <h3 class="bold">СОЦІАЛЬНІ</h3>
-                    <hr>
-                    <p>Facebook<br>
-                        Instagram</p>
-                </div>
+            <div class="col-xs-3 col-md-3 pull-right">
+                <a href="#"><img src=" {$base_UI}img/black_grad_small.png"></a>
+                <a href="#"><img src=" {$base_UI}img/ic_android_128_28230.png"></a>
+                <p class="text-muted mobile_p">{__('Mobile_applications')}</p>
             </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-3 footer_info">
-                <div class="wrap_footer_info">
-                    <h3 class="bold">E-МЕЙЛ</h3>
-                    <hr>
-                    <p>work@money24.ua</p>
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-3 creator text-center">
-                <div class="wrap_footer_info">
-                    <p>Designed by<br></p>
-                    <p class="light">All rights reserved<br>2015</p>
-                </div>
-            </div>
-        </div>
+      
     </div>
-</footer>
+</div>
 
 {Assets::js()}
 {block name="jscode"}{/block}
