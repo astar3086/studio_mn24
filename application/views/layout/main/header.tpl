@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Logistics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money24</title>
+
     {Assets::group('head')}
     {Assets::css()}
 </head>
